@@ -1,11 +1,11 @@
- 
+
  {
   "name": "ngx-admin",
   "version": "4.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:fahimarshaddevsinc/Test-Project.git"
+    "url": "git@github.com/fahim-arshad/Cypress-UI-test-project.git"
   },
   "scripts": {
     "ng": "ng",

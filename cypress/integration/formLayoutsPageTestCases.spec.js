@@ -9,15 +9,15 @@ describe('Should correctly submit all forms on form Layouts Page', () => {
     })
 
     it('should submit inline form', () => {
-        onFormLayoutsPage.submit_inline_form('Fahim', 'Arshad') 
+        onFormLayoutsPage.submit_inline_form('Fahim', 'Arshad')
     })
 
     it('should submit basic form', () => {
-        onFormLayoutsPage.submit_basic_form('fahim.arshad@devsinc.com', 'fahimarshad')
+        onFormLayoutsPage.submit_basic_form('fahim.arshad@example.com', 'fahimarshad')
     })
 
     it('should submit Using the Grid Form', () => {
-        onFormLayoutsPage.submit_using_the_grid_form('fahim.arshad@devsinc.com', 'fahimarshad')
+        onFormLayoutsPage.submit_using_the_grid_form('fahim.arshad@example.com', 'fahimarshad')
     })
 
     it.only('should verify validations on email field in Using the Grid Form', () => {
